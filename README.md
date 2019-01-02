@@ -19,7 +19,7 @@ Repeat these steps 4 and 5 for installing the device handler under *My Device Ha
 
 Hikvisioneventsserver Setup
   1) Edit the hikvisionevents.cfg file.
-    a) Enter in the IP address and login information for your Hikvision NVR
-    b) Change the Smartthings host to where your IDE resides (usually the URL of your IDE). Add the accessToken and appkey/appID of the SmartApp. To find it, open your IDE and go to Locations, then select the smartapps link in the location you installed the app, then find it in the list and click on its name. The access token is found in the *Application State*. You can find all three parameters in the endpoint field of the form *https://{{host}}:443/api/token/{{accessToken}}/smartapps/installations/{{appId}}/*
-    c) Edit the names of the cameras attached to your NVR.
+      (a) Enter in the IP address and login information for your Hikvision NVR.
+      (b) Change the Smartthings host to where your IDE resides (usually the URL of your IDE). Add the accessToken and appkey/appID of the SmartApp. To find it, open your IDE and go to Locations, then select the smartapps link in the location you installed the app, then find it in the list and click on its name. The access token is found in the *Application State*. You can find all three parameters in the endpoint field of the form *https://{{host}}:443/api/token/{{accessToken}}/smartapps/installations/{{appId}}/*
+      (c) Edit the names of the cameras attached to your NVR.
   2) Run the python script.  You can setup events and alarms in your Hikvision NVR using its web interface or the client software. When an event is first triggered it will be added automatically as a device to Smartthings.
