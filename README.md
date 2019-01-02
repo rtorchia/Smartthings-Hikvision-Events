@@ -15,7 +15,7 @@ Installing the SmartApp and associated Device Handler
   4) Tap on the *Update from Repo* button and select the Hikvision-Events repo.
   5) Select the Hikvison Motion Sensors application and install it.
 
-Repeat these steps 4 and 5 for installing the device handler under *My Device Handlers*.
+Repeat these steps 4 and 5 for installing the device handler under *My Device Handlers*. Also, don't forget to enable Oauth for the SmartApp.
 
 Hikvisioneventsserver Setup
   1) Edit the hikvisionevents.cfg file.
