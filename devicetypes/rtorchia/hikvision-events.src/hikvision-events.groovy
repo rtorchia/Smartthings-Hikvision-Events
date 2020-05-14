@@ -12,8 +12,14 @@
  *
  */
 metadata {
-	definition (name: "Hikvision Events", namespace: "rtorchia", author: "Ralph Torchia") {
-		capability "Motion Sensor"
+	definition (
+    	name: "Hikvision Events",
+    	namespace: "rtorchia",
+        author: "Ralph Torchia"
+    )
+
+	{
+        capability "Motion Sensor"
 		capability "Sensor"
 	}
 
