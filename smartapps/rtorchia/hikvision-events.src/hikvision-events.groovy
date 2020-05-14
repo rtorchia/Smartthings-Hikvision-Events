@@ -14,7 +14,7 @@
  *  for the specific language governing permissions and limitations under the License.
  *
  */
-definition(
+definition (
     name: "Hikvision Events",
     namespace: "rtorchia",
     author: "Ralph Torchia",
@@ -22,7 +22,8 @@ definition(
     category: "Safety & Security",
     iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
     iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png",
-    iconX3Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png")
+    iconX3Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png"
+)
 
 
 preferences {
@@ -44,10 +45,6 @@ def initialize() {
 	initializeEndpoint()
 	// TODO: subscribe to attributes, devices, locations, etc.
 }
-
-// TODO: implement event handlers
-
-
 
 private Integer convertHexToInt(hex) {
 	Integer.parseInt(hex,16)
