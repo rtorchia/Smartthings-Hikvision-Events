@@ -1,7 +1,7 @@
 /**
  *  Hikvision Events
  *
- *  Copyright 2019 Ralph Torchia
+ *  Copyright 2020 Ralph Torchia
  *  Modified code from "HikvisionMotion" by Adrian Caramaliu
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
@@ -13,16 +13,18 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
+ *  Date: 2020-10-15
  */
+
 definition (
     name: "Hikvision Events",
     namespace: "rtorchia",
     author: "Ralph Torchia",
     description: "Notification for events from Hikvision NVRs",
     category: "Safety & Security",
-    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
-    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png",
-    iconX3Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png"
+    iconUrl: "https://raw.githubusercontent.com/rtorchia/Smartthings-Hikvision-Events/master/images/logo_icon.png",
+    iconX2Url: "https://raw.githubusercontent.com/rtorchia/Smartthings-Hikvision-Events/master/images/logo_icon.png",
+    iconX3Url: "https://raw.githubusercontent.com/rtorchia/Smartthings-Hikvision-Events/master/images/logo_icon.png",
 )
 
 
