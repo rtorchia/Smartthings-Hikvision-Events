@@ -10,7 +10,9 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
+ *  Date: 2020-10-15
  */
+ 
 metadata {
 	definition (
     	name: "Hikvision Events",
@@ -22,18 +24,8 @@ metadata {
         capability "Motion Sensor"
 		capability "Sensor"
 	}
-
-	// UI tile definitions
-	tiles(scale: 2) {
-		multiAttributeTile(name:"motion", type: "generic", width: 6, height: 4){
-			tileAttribute("device.motion", key: "PRIMARY_CONTROL") {
-				attributeState("active", label:'motion', icon:"st.motion.motion.active", backgroundColor:"#00A0DC")
-				attributeState("inactive", label:'no motion', icon:"st.motion.motion.inactive", backgroundColor:"#CCCCCC")
-			}
- 		}
-		main "motion"
-		details "motion"
-	}
+	
+    tiles {}
 }
 
 def motionActive() {
