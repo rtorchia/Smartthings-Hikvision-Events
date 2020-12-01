@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/python
 #!/usr/bin/python3.8
 ## python3.8
 ## Hikvision Event Server
