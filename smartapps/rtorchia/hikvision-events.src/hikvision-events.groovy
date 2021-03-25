@@ -13,7 +13,7 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
- *  Date: 2020-10-15
+ *  Date: 2021-01-28
  */
 
 definition (
@@ -25,6 +25,7 @@ definition (
     iconUrl: "https://raw.githubusercontent.com/rtorchia/Smartthings-Hikvision-Events/master/images/logo_icon.png",
     iconX2Url: "https://raw.githubusercontent.com/rtorchia/Smartthings-Hikvision-Events/master/images/logo_icon.png",
     iconX3Url: "https://raw.githubusercontent.com/rtorchia/Smartthings-Hikvision-Events/master/images/logo_icon.png",
+    singleinstance: true
 )
 
 
